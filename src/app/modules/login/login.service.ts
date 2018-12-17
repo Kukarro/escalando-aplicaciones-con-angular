@@ -8,8 +8,8 @@ import { environment } from 'src/environments/environment';
 @Injectable()
 export class LoginService {
 
-  user: User = <any>{ fullName: 'Admin' };
-
+  // user: User = <any>{ fullName: 'Admin' };
+  user: User;
   fallbackUrl = '';
 
   get isLoggedIn(): boolean {
